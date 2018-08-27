@@ -36,7 +36,7 @@ git clone https://github.com/phpv8/v8js.git
 cd v8js
 phpize
 
-#libv8 fix
+# libv8 fix
 sudo cp out.gn/x64.release/lib*.so /usr/lib/x86_64-linux-gnu/
 
 ./configure --with-v8js=/opt/v8 LDFLAGS="-lstdc++"
